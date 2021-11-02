@@ -22,22 +22,16 @@
     float:right
 }
 #panel1{
-    height: 800px;
-    width: 1000px;
+    height: 1000px;
+    width: 1200px;
     background-color: steelblue;
     float:left;
 }
 #panel2{
-    height: 800px;
-    width: 200px;
+    height: 1000px;
+    width: 600px;
     background-color: tan;
-    float:left
-}
-#sidebar{
-    height: 800px;
-    width: 200px;
-    background-color: tomato;
-    float:left
+    float:left;
 }
 #footer{
     height: 200px;
