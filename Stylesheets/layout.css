@@ -1,0 +1,41 @@
+#container{
+    height:auto;
+    width: 1200px;
+    background-color: palegreen;
+}
+#header{
+    height: 200px;
+    width: 1200px;
+    background-color:palevioletred;
+    float:none
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    background-color: slategrey;
+    float:left;
+}
+#logo2{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    float:right
+}
+#panel1{
+    height: 1000px;
+    width: 1200px;
+    background-color: steelblue;
+    float:left;
+}
+#panel2{
+    height: 1000px;
+    width: 800px;
+    background-color: tan;
+    float:left;
+}
+#footer{
+    height: 200px;
+    width: 1200px;
+    background-color: blanchedalmond;
+    float:left
+}
