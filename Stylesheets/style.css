@@ -60,3 +60,8 @@ a:hover{
     box-shadow: none 12px 16px black;
     color:tan
 }
+.vid{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
