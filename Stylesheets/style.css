@@ -19,9 +19,11 @@ h3{
 }
 body{
     margin: 0;
-    background-image: url("Images\background.jpg");
-    background-color:darkolivegreen;
-    background-position: center center;
+    background-image: url("../Images/background.jpg");
+    background-color:black;
+    background-position: top center;
+    background-repeat:no-repeat;
+    background-size:cover
 }
 table, th, td {
     border: 1px solid black;
@@ -37,4 +39,23 @@ th{
 }
 th, td {
 padding: 15px;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+a{
+    color:whitesmoke
+}
+a:link, a:visited {
+    background-color: olive;
+    color:snow;
+    padding: 10px 15px;
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+}
+a:hover{
+    background-color: darkolivegreen;
+    box-shadow: none 12px 16px black;
+    color:tan
 }

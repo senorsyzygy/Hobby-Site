@@ -1,7 +1,8 @@
 #container{
     height:100vh;
     width: 100vh;
-    background-color: palegreen;
+    min-width: 1000px;
+    background-color: rgba(102,153,0, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,36 +13,39 @@
 #header{
     height: 200px;
     width: 100vh;
-    background-color:palevioletred;
+    min-width: 1000px;
+    /*background-color:palevioletred;*/
     float:none
 }
 #logo{
     height: 200px;
     width: 200px;
-    background-color: slategrey;
+    /*background-color: slategrey;*/
     float:left;
 }
 #logo2{
     height: 200px;
     width: 200px;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     float:right
 }
 #panel1{
     height: 1000px;
     width: 100vh;
-    background-color: steelblue;
+    min-width: 1000px;
+    /*background-color: steelblue;*/
     float:left;
 }
 #panel2{
     height: 100%;
     width: 60%;
-    background-color: tan;
+    /*background-color: tan;*/
     float:left;
 }
 #footer{
     height: 200px;
     width: 100vh;
-    background-color: blanchedalmond;
+    min-width: 1000px;
+    /*background-color: blanchedalmond;*/
     float:left
 }
