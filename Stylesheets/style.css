@@ -23,7 +23,8 @@ body{
     background-color:black;
     background-position: top center;
     background-repeat:no-repeat;
-    background-size:cover
+    background-size:cover;
+    width:100vw;
 }
 table, th, td {
     border: 1px solid black;
