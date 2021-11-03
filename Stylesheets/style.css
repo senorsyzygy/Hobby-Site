@@ -19,7 +19,22 @@ h3{
 }
 body{
     margin: 0;
-    background-image: image("../../HobbySite/Images/background.jpg");
+    background-image: url("Images\background.jpg");
     background-color:darkolivegreen;
     background-position: center center;
+}
+table, th, td {
+    border: 1px solid black;
+    width:70%;
+    background-color:lightgray;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+th{
+    background-color: lightslategrey;
+    text-align: center;
+}
+th, td {
+padding: 15px;
 }
