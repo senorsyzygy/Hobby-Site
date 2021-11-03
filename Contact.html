@@ -13,29 +13,47 @@
                 <img src="Images/Logo.png" alt="Test logo">
             </div>
             <!--right sided logo workaround to make header text correctly centered-->
-            <div id="logo2">right side</div>
+            <div id="logo2">
+                <img src="Images/Logo.png" alt="Test logo">
+            </div>
             <p>.</p>
-            <h1>Testing</h1>
-            <p class=middle>This is my website</p>
-            <p class=middle>There are many like it but this is mine</p>
+            <h1>British Tanks in World War Two</h1>
+            <p class=middle>A curated selection of British tanks which were designed during World War Two</p>
         </div>
+        <!--Side panel-->
         <div id="panel1">
-            <h2>Contact us</h2>
-            <p class=middle>Perhaps we have not included your favourite British tank from World War Two, if this is the case then please feel free to contact us via the form below</p>
-            <p class=middle>We would love to hear your suggestions on which tank to do a page on next!</p>
-            
+            <!--Contact us panel-->
+            <div id="panel2">
+                <h2>Contact us</h2>
+                <p class=middle>Perhaps we have not included your favourite British tank from World War Two, if this is the case then please feel free to contact us via the form below</p>
+                <p class=middle>We would love to hear your suggestions on which tank to do a page on next!</p>
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="tank">Tank:</label><br>
+                    <input type="text" id="tank" name="tank"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div>
+            <h2>Yours could be next</h2>
+            <img src="Images/ChooseTank.jpg" alt="Obscured tank" width="400px">
+            </div>            
         </div>
         <!--Footer with copyrights and also additional navigation-->
         <div id="footer">
             <h3>Navigational Links</h3>
-            <p class=middle>Click here to visit any of the pages available on the site</p>
+            <p class=middle>Click below to visit any of the pages available on the site</p>
             <p class=middle>
-                <a href="index.html">Home</a>
-                <a href="Page_1.html">Churchill Tank</a>
-                <a href="Page_2.html">Cromwell Tank</a>
-                <a href="Page_3.html">Centurion Tank</a>
+                <a href="index.html" class=button>Home</a>
+                <a href="Churchill.html" class=button>Churchill Tank</a>
+                <a href="Cromwell.html" class=button>Cromwell Tank</a>
+                <a href="Centurion.html" class=button>Centurion Tank</a>
+                <a href="Contact.html" class=button>Contact us</a>
             </p>
-            <p class=middle>You are currently on contact us page</p>
+            <p class=middle>You are currently on the <b>contact us</b> page</p>
             <p class=middle>Copyrights go here</p>
         </div>
     </div>
