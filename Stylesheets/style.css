@@ -60,6 +60,9 @@ a:hover{
     box-shadow: none 12px 16px black;
     color:tan
 }
+a:active{
+    background-color: dimgray;
+}
 .vid{
     width:100%;
     display:flex;
